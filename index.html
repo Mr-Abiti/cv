@@ -7,12 +7,251 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-
+    <script src="js/jquery-3.4.1.min.js"></script>
     <title>Muluken Bogale</title>
+
 </head>
 
 <body>
-    <header class="mainHead container"></header>
+    <header class="mainHead">
+        <div class="navbar">
+            <div class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="https://github.com/mulukenb89" class="btn btn-warning btn-group-lg">Github Page</a><br>
+                </li>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img/profile.jpg" class="rounded-circle mx-auto d-block" alt="profile picture" width="200" height="200">
+        </div>
+        <div class="navbar">
+            <div class="navbar-nav mx-auto">
+                <li class="nav-item mx-auto">
+                    <h2 style="color: black">Muluken Bogale Megersa</h2> <br>
+                </li>
+                <li class="nav-item mx-auto"><a href="https://www.linkedin.com/in/muluken-bogale-33967513a" class="btn btn-lg btn-primary" style="text-transform: uppercase">my linkedin profile</a> <br> <br>
+                </li>
+                <li class="nav-item mx-auto"><a href=" mailto:mulukenb89@gmail.com" class="btn btn-lg btn-danger" style="text-transform: uppercase">Send mail</a>
+                </li>
+            </div>
+        </div>
+
+    </header>
+    <section class="tabs">
+        <div class="container cont-menu" style="padding-bottom: 0%">
+            <div id="tab-1" class="tab-item" style="border-bottom:#e50914 4pt solid">
+                <p class="hidesm">About Me</p>
+            </div>
+            <div id="tab-2" class="tab-item">
+                <p class="hidesm">Galery</p>
+            </div>
+            <div id="tab-3" class="tab-item">
+                <p class="hidesm">Skills</p>
+            </div>
+            <div id="tab-4" class="tab-item">
+                <p class="hidesm">Contact</p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+    <!--About me-->
+    <div id="tab-1-content" class="container">
+        <h3 class="text-center text-light">About me</h3>
+        <div class="ml-5 h5">
+            <table class="table table-borderless text-white table-responsive">
+                <tr>
+                    <th>Name:</th>
+                    <td>Muluken Bogale Megersa</td>
+
+                </tr>
+                <tr>
+                    <th>Birth Date: </th>
+                    <td>23-01-1997</td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>mulukenb89@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone: </th>
+                    <td>+251986088963</td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>Adama, Ethiopia</td>
+                </tr>
+                <tr>
+                    <th>Hobies:</th>
+                    <td>Programming, Reading</td>
+                </tr>
+
+            </table>
+        </div>
+
+    </div>
+    <!--galery-->
+    <div id="tab-2-content" class="container" style="display: none">
+        <h3 class="text-center text-light">Galery</h3>
+        <div class="card-deck">
+            <div class="card">
+                <img src="img/g1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Photo 1</h5>
+                    <p class="card-text text-info">some place in astu waiting for my friends</div>
+            </div>
+            <div class="card">
+                <img src="img/g4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Photo 2</h5>
+                    <p class="card-text text-info">celebrating half life whith my friends</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/g3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Photo 3</h5>
+                    <p class="card-text text-info">Going for lab session</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <!--skils-->
+    <div id="tab-3-content" class="container" style="display: none">
+        <h3 class="text-center text-light">Some of my languag skils:</h3>
+        <div class="ml-5 h5">
+            <table class="table table-borderless text-white">
+                <!--Afan oromo-->
+                <tr>
+                    <td>Afan Oromo:
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                        </div>
+                    </td>
+
+                </tr>
+
+                <!--Amharic-->
+                <tr>
+                    <td>Amharic:
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:81%"></div>
+                        </div>
+                    </td>
+                </tr>
+
+                <!--English-->
+                <tr>
+                    <td>English:
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%"></div>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+            <br>
+            <h4 class="text-info text-center">Some of my programming skils</h4><br>
+            <div>
+                <ul class="list-unstyled text-monospace text-white text-center">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <br>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="tab-4-content" class="container" style="display: none">
+        <h3 class="text-center text-light">Contact Information</h3>
+        <div class="ml-5 h5">
+            <table class="table table-borderless text-white table-responsive">
+                <tr>
+                    <th>Email Address :</th>
+                    <td>mulukenb89@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Phone No:</th>
+                    <td>+251935537618</td>
+                </tr>
+                <tr>
+                    <th>Github Address:</th>
+                    <td>https://github.com/mulukenb89</td>
+                </tr>
+                <tr>
+                    <th>LinkedIn:</th>
+                    <td>https://www.linkedin.com/in/muluken-bogale-33967513a</td>
+                </tr>
+                <tr>
+                    <th>Twitter:</th>
+                    <td>@Mulukenbogale2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- foters-->
+    <footer>
+        <div class="footer-copyright text-center py-3" style="background-color: darkslategrey; color: white;">© 2019 Copyright
+            <p>developed by: Muluken Bogale</p>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        // for tab 1
+        $(document).ready(function() {
+                $("#tab-1").click(function() {
+                    $("#tab-1").css("border-bottom", "#e50914 4pt solid");
+                    $("#tab-2").css("border-bottom", "none");
+                    $("#tab-3").css("border-bottom", "none");
+                    $("#tab-4").css("border-bottom", "none");
+                    $("#tab-2-content").hide();
+                    $("#tab-3-content").hide();
+                    $("#tab-4-content").hide();
+                    $("#tab-1-content").show();
+                })
+            })
+            // for tab 2
+        $(document).ready(function() {
+                $("#tab-2").click(function() {
+                    $("#tab-2").css("border-bottom", "#e50914 4pt solid");
+                    $("#tab-1").css("border-bottom", "none");
+                    $("#tab-3").css("border-bottom", "none");
+                    $("#tab-4").css("border-bottom", "none");
+                    $("#tab-2-content").show();
+                    $("#tab-1-content").hide();
+                    $("#tab-3-content").hide();
+                    $("#tab-4-content").hide();
+                })
+            })
+            // for tab 3
+        $(document).ready(function() {
+                $("#tab-3").click(function() {
+                    $("#tab-3").css("border-bottom", "#e50914 4pt solid");
+                    $("#tab-2").css("border-bottom", "none");
+                    $("#tab-1").css("border-bottom", "none");
+                    $("#tab-4").css("border-bottom", "none");
+                    $("#tab-3-content").show();
+                    $("#tab-2-content").hide();
+                    $("#tab-1-content").hide();
+                    $("#tab-4-content").hide();
+                })
+            })
+            // for tab 4
+        $(document).ready(function() {
+            $("#tab-4").click(function() {
+                $("#tab-4").css("border-bottom", "#e50914 4pt solid");
+                $("#tab-2").css("border-bottom", "none");
+                $("#tab-3").css("border-bottom", "none");
+                $("#tab-1").css("border-bottom", "none");
+                $("#tab-4-content").show();
+                $("#tab-2-content").hide();
+                $("#tab-3-content").hide();
+                $("#tab-1-content").hide();
+            })
+        })
+    </script>
 </body>
 
 </html>
