@@ -15,3 +15,38 @@ body {
     position: relative;
     background: url('../img/header.jpg') no-repeat center center/cover;
 }
+
+.topHead {
+    position: relative;
+    height: 90px;
+}
+
+.tabs {
+    background: rgb(1, 2, 56);
+    padding: 1rem;
+    padding-bottom: 0%;
+    border-bottom: 3px;
+}
+
+.tabs .cont-menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .cont-menu>div {
+    padding: 1.5rem 0;
+}
+
+.tabs .cont-menu>div:hover {
+    color: #fff;
+    cursor: pointer;
+}
